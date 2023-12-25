@@ -19,12 +19,10 @@ give print statement and end the program
 #Program to find the eigen values and eigen vectors.
 #Developed by: MOHAMED RIDWAN A
 #RegisterNumber: 23003133
-
 import numpy as np
 A= [[2,2],[1,3]]
 VALUES,VECTORS=np.linalg.eig(A)
 print("Eigen values are",VALUES,"and Eigen Vectors are",VECTORS)
-
 ```
 
 ## Output:
